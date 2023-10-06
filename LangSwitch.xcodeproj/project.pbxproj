@@ -11,6 +11,10 @@
 		4C79BED02A553F0D006A793C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79BECF2A553F0D006A793C /* AppDelegate.swift */; };
 		4C79BED22A553F0E006A793C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C79BED12A553F0E006A793C /* Assets.xcassets */; };
 		4C79BED52A553F0E006A793C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C79BED42A553F0E006A793C /* Preview Assets.xcassets */; };
+		AEA4A1C2B2AC21F1E9663D7E /* Pods_LangSwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607C4D5EF45938EE24DEA0BA /* Pods_LangSwitchTests.framework */; };
+		B78669402AD00265002E9B99 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = B786693F2AD00265002E9B99 /* KeyboardShortcuts */; };
+		F26CDE460BA1BD72F22C2836 /* Pods_LangSwitch_LangSwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79690E46B12F63D7C7165D91 /* Pods_LangSwitch_LangSwitchUITests.framework */; };
+		F5F082DB7998FA5325273DB0 /* Pods_LangSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807A43DC9D96B3F10815A38D /* Pods_LangSwitch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,15 @@
 		4C79BED62A553F0E006A793C /* LangSwitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LangSwitch.entitlements; sourceTree = "<group>"; };
 		4C79BEDB2A553F0E006A793C /* LangSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C79BEE52A553F0E006A793C /* LangSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5051160C9106726458CB3859 /* Pods-LangSwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitchTests.release.xcconfig"; path = "Target Support Files/Pods-LangSwitchTests/Pods-LangSwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		607C4D5EF45938EE24DEA0BA /* Pods_LangSwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangSwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6502A370F701647A96FCB5 /* Pods-LangSwitch-LangSwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitch-LangSwitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-LangSwitch-LangSwitchUITests/Pods-LangSwitch-LangSwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79690E46B12F63D7C7165D91 /* Pods_LangSwitch_LangSwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangSwitch_LangSwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807A43DC9D96B3F10815A38D /* Pods_LangSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LangSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628014317F19D91F4C71586 /* Pods-LangSwitch-LangSwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitch-LangSwitchUITests.release.xcconfig"; path = "Target Support Files/Pods-LangSwitch-LangSwitchUITests/Pods-LangSwitch-LangSwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D076E73F81F08CDD8E02FFAE /* Pods-LangSwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitchTests.debug.xcconfig"; path = "Target Support Files/Pods-LangSwitchTests/Pods-LangSwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E25A49A154DA488D346DC3BC /* Pods-LangSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitch.debug.xcconfig"; path = "Target Support Files/Pods-LangSwitch/Pods-LangSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		F6001E266B836B2692698772 /* Pods-LangSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LangSwitch.release.xcconfig"; path = "Target Support Files/Pods-LangSwitch/Pods-LangSwitch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F082DB7998FA5325273DB0 /* Pods_LangSwitch.framework in Frameworks */,
+				B78669402AD00265002E9B99 /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA4A1C2B2AC21F1E9663D7E /* Pods_LangSwitchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26CDE460BA1BD72F22C2836 /* Pods_LangSwitch_LangSwitchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +88,8 @@
 			children = (
 				4C79BECC2A553F0D006A793C /* LangSwitch */,
 				4C79BECB2A553F0D006A793C /* Products */,
+				7FF475B06E1BA77E0159203C /* Pods */,
+				D96423807FD95CB01BEDA869 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +123,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7FF475B06E1BA77E0159203C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E25A49A154DA488D346DC3BC /* Pods-LangSwitch.debug.xcconfig */,
+				F6001E266B836B2692698772 /* Pods-LangSwitch.release.xcconfig */,
+				6C6502A370F701647A96FCB5 /* Pods-LangSwitch-LangSwitchUITests.debug.xcconfig */,
+				B628014317F19D91F4C71586 /* Pods-LangSwitch-LangSwitchUITests.release.xcconfig */,
+				D076E73F81F08CDD8E02FFAE /* Pods-LangSwitchTests.debug.xcconfig */,
+				5051160C9106726458CB3859 /* Pods-LangSwitchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D96423807FD95CB01BEDA869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807A43DC9D96B3F10815A38D /* Pods_LangSwitch.framework */,
+				79690E46B12F63D7C7165D91 /* Pods_LangSwitch_LangSwitchUITests.framework */,
+				607C4D5EF45938EE24DEA0BA /* Pods_LangSwitchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,15 +153,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C79BEEF2A553F0E006A793C /* Build configuration list for PBXNativeTarget "LangSwitch" */;
 			buildPhases = (
+				329E1545693863B8E98532A2 /* [CP] Check Pods Manifest.lock */,
 				4C79BEC62A553F0D006A793C /* Sources */,
 				4C79BEC72A553F0D006A793C /* Frameworks */,
 				4C79BEC82A553F0D006A793C /* Resources */,
+				41315F8D4E262FD234D0CD71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LangSwitch;
+			packageProductDependencies = (
+				B786693F2AD00265002E9B99 /* KeyboardShortcuts */,
+			);
 			productName = LangSwitch;
 			productReference = 4C79BECA2A553F0D006A793C /* LangSwitch.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C79BEF22A553F0E006A793C /* Build configuration list for PBXNativeTarget "LangSwitchTests" */;
 			buildPhases = (
+				079C0A24FBEF0DFABB0ABC7E /* [CP] Check Pods Manifest.lock */,
 				4C79BED72A553F0E006A793C /* Sources */,
 				4C79BED82A553F0E006A793C /* Frameworks */,
 				4C79BED92A553F0E006A793C /* Resources */,
@@ -146,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C79BEF52A553F0E006A793C /* Build configuration list for PBXNativeTarget "LangSwitchUITests" */;
 			buildPhases = (
+				2FE6DF9C266D682762913C91 /* [CP] Check Pods Manifest.lock */,
 				4C79BEE12A553F0E006A793C /* Sources */,
 				4C79BEE22A553F0E006A793C /* Frameworks */,
 				4C79BEE32A553F0E006A793C /* Resources */,
+				6DBE21BECC0E9E9DE67F3D26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +242,9 @@
 				Base,
 			);
 			mainGroup = 4C79BEC12A553F0D006A793C;
+			packageReferences = (
+				B786693E2AD00264002E9B99 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
 			productRefGroup = 4C79BECB2A553F0D006A793C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,6 +281,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079C0A24FBEF0DFABB0ABC7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LangSwitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE6DF9C266D682762913C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LangSwitch-LangSwitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		329E1545693863B8E98532A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LangSwitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41315F8D4E262FD234D0CD71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LangSwitch/Pods-LangSwitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LangSwitch/Pods-LangSwitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LangSwitch/Pods-LangSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DBE21BECC0E9E9DE67F3D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LangSwitch-LangSwitchUITests/Pods-LangSwitch-LangSwitchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LangSwitch-LangSwitchUITests/Pods-LangSwitch-LangSwitchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LangSwitch-LangSwitchUITests/Pods-LangSwitch-LangSwitchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C79BEC62A553F0D006A793C /* Sources */ = {
@@ -384,6 +540,7 @@
 		};
 		4C79BEF02A553F0E006A793C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25A49A154DA488D346DC3BC /* Pods-LangSwitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -415,6 +572,7 @@
 		};
 		4C79BEF12A553F0E006A793C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6001E266B836B2692698772 /* Pods-LangSwitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +604,7 @@
 		};
 		4C79BEF32A553F0E006A793C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D076E73F81F08CDD8E02FFAE /* Pods-LangSwitchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +624,7 @@
 		};
 		4C79BEF42A553F0E006A793C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5051160C9106726458CB3859 /* Pods-LangSwitchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +644,7 @@
 		};
 		4C79BEF62A553F0E006A793C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6502A370F701647A96FCB5 /* Pods-LangSwitch-LangSwitchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +661,7 @@
 		};
 		4C79BEF72A553F0E006A793C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B628014317F19D91F4C71586 /* Pods-LangSwitch-LangSwitchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +716,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B786693E2AD00264002E9B99 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B786693F2AD00265002E9B99 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B786693E2AD00264002E9B99 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C79BEC22A553F0D006A793C /* Project object */;
 }

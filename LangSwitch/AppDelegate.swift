@@ -9,6 +9,13 @@ import SwiftUI
 import Carbon
 import Foundation
 import AppKit
+import KeyboardShortcuts
+import HotKey
+
+extension KeyboardShortcuts.Name {
+    static let switchKeyboardLangaugeHotKey = Self("switchKeyboardLangaugeHotKey", default: .init(.space, modifiers: [.command]))
+}
+
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarItem: NSStatusItem?
@@ -30,9 +37,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged) { event in
             if event.modifierFlags.contains(.function) {
                 // Call the function to handle "Fn" button press
-                self.switchKeyboardLanguage()
+                
             }
         }
+        KeyboardShortcuts.onKeyDown(for: .switchKeyboardLangaugeHotKey, action: {
+            self.switchKeyboardLanguage()
+        })
+//        let hotKey = HotKey(key: .return, modifiers: <#T##NSEvent.ModifierFlags#>)
     }
     
     @objc func exitAction() {
@@ -58,6 +69,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             print("Failed to switch keyboard language.")
             return
         }
+        print(currentSource)
         
         // Calculate the index of the next input source
         var nextIndex = (currentIndex + 1) % inputSources.count
